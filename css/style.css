@@ -27,13 +27,13 @@ section {
 
 /* mobile home screen  */
 #homeMob {
-  margin-top: -90vh;
-  height: 70vh;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  top: 10vh;
+  bottom: 20vh;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
 }
 
 .topandbottom{
@@ -248,8 +248,7 @@ nav.black ul {
 .circle {
   z-index: 0;
   display: inline-block;
-  margin-top: -50vh;
-  padding: 8rem;
+  padding: 2rem;
   width: 200px;
   height: 200px;
   border-radius: 50%;
