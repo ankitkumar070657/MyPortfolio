@@ -27,8 +27,8 @@ section {
 
 /* mobile home screen  */
 #homeMob {
-  margin-top: -100vh;
-  height: 100vh;
+  margin-top: -80vh;
+  height: 50vh;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -49,13 +49,6 @@ section {
 
 
 }
-
-nav.black ul {
-  background-color: rgba(0, 0, 0, 0.9);
-  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.9);
-  backdrop-filter: blur(10px) saturated(400%);
-}
-
 .navbarLite ul {
   overflow: auto;
 }
@@ -645,6 +638,12 @@ body {
   #contacts,
   #thanku {
     display: none;
+  }
+
+  nav.black ul {
+    background-color: rgba(255, 255, 255, 0.09);
+    box-shadow: 20px 25px 35px rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(10px);
   }
 }
 
