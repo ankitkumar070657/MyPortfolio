@@ -28,8 +28,7 @@ section {
 /* mobile home screen  */
 #homeMob {
   position: absolute;
-  top: 10vh;
-  bottom: 20vh;
+  top: 20vh;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -351,7 +350,7 @@ h3 {
 
 h4 {
   color: #fff;
-  text-decoration: none;
+  
 }
 
 h5 {
@@ -482,6 +481,7 @@ span {
   border: 4px solid rgba(2, 2, 5, 0.1);
   border-radius: 2px;
   backdrop-filter: blur(10px) saturated(180%);
+  text-decoration: none;
 }
 
 
