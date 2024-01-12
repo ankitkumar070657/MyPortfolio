@@ -112,7 +112,7 @@ section {
   text-decoration-color: aliceblue;
   position: sticky;
   top: 0%;
-
+  z-index: 100;
 
 }
 
