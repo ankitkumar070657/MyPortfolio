@@ -332,6 +332,12 @@ button:before {
 
 /* text tags */
 
+.asitis{
+  margin-top: 10rem;
+  color: #fff;
+  font-size: 2.8rem;
+}
+
 h1 {
   text-transform: capitalize;
   font-size: 4rem;
